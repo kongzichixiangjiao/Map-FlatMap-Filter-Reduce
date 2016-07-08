@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC59DBC21D2FF18600283F78"
+               BuildableName = "Map-FlatMap-Filter-Reduce.app"
+               BlueprintName = "Map-FlatMap-Filter-Reduce"
+               ReferencedContainer = "container:Map-FlatMap-Filter-Reduce.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC59DBD61D2FF18700283F78"
+               BuildableName = "Map-FlatMap-Filter-ReduceTests.xctest"
+               BlueprintName = "Map-FlatMap-Filter-ReduceTests"
+               ReferencedContainer = "container:Map-FlatMap-Filter-Reduce.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC59DBE11D2FF18700283F78"
+               BuildableName = "Map-FlatMap-Filter-ReduceUITests.xctest"
+               BlueprintName = "Map-FlatMap-Filter-ReduceUITests"
+               ReferencedContainer = "container:Map-FlatMap-Filter-Reduce.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC59DBC21D2FF18600283F78"
+            BuildableName = "Map-FlatMap-Filter-Reduce.app"
+            BlueprintName = "Map-FlatMap-Filter-Reduce"
+            ReferencedContainer = "container:Map-FlatMap-Filter-Reduce.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC59DBC21D2FF18600283F78"
+            BuildableName = "Map-FlatMap-Filter-Reduce.app"
+            BlueprintName = "Map-FlatMap-Filter-Reduce"
+            ReferencedContainer = "container:Map-FlatMap-Filter-Reduce.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC59DBC21D2FF18600283F78"
+            BuildableName = "Map-FlatMap-Filter-Reduce.app"
+            BlueprintName = "Map-FlatMap-Filter-Reduce"
+            ReferencedContainer = "container:Map-FlatMap-Filter-Reduce.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
